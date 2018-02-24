@@ -1,0 +1,55 @@
+/*!
+Theme Name: Mojo Services
+Author: aljun
+Description: My Personal Single Web Page Website with Bootstrap 4
+Version: 1.0.0
+License: GNU General Public License v2 or later
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Addon
+# Site Custom Style
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Addon
+--------------------------------------------------------------*/
+
+/* 
+	Note to my self: 
+		- Option A when it is in Development status
+	    - Option B when the deplyo production
+	    - Remove unused Bootstrap classes
+*/
+
+// # Custom.scss
+// # Option A: Include all of Bootstrap
+
+@import "bootstrap-4.0.0/scss/bootstrap";
+
+
+/*--
+	 # Custom.scss
+	 # Option B: Include parts of Bootstrap
+
+	 Required
+		@import "bootstrap-4.0.0/scss/functions";
+		@import "bootstrap-4.0.0/scss/variables";
+		@import "bootstrap-4.0.0/scss/mixins";
+
+		 Optional
+		@import "bootstrap-4.0.0/scss/reboot";
+		@import "bootstrap-4.0.0/scss/type";
+		@import "bootstrap-4.0.0/scss/images";
+		@import "bootstrap-4.0.0/scss/code";
+		@import "bootstrap-4.0.0/scss/grid";
+----*/
+
+
+/*--------------------------------------------------------------
+# Site Custom Style
+--------------------------------------------------------------*/
+//Custom-Style
+@import "custom-style/index";
